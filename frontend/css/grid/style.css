@@ -1,0 +1,19 @@
+*{
+    padding:0px;
+    margin: 0px;
+
+}
+#chess{
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: pink;
+}
+.white{
+    background-color: white;
+}
+.brown{
+    background-color: brown;
+}

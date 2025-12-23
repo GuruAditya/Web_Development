@@ -1,0 +1,32 @@
+.container{
+    background-color:burlywood;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* justify content works around the main axis */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    height:100px;
+    width: 100px;
+    margin:5px;
+}
+.first{
+    background-color: aliceblue;
+    flex-grow: 1;
+}
+
+.second{
+    background-color: antiquewhite;
+    flex-grow: 2;
+}
+.third{
+    background-color:aqua;
+}
+.fourth{
+    background-color: aquamarine;
+}

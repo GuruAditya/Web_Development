@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 600px;
+    height: 400px;
+    background-color: antiquewhite;
+    
+    padding: 60px;
+}
+h1{
+    background-color: rgb(181, 181, 205);
+    text-align: center;
+    margin-bottom: 50px;
+}
+label{
+    font-size: 25px;
+    font-weight: 500;
+    
+    margin-bottom: 5px;
+}
+input{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-width: 3px;
+    
+}

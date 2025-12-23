@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.container{
+    background-color: aqua;
+}
+@media screen and (min-width:600px) {
+    .container{
+        background-color: antiquewhite;
+        
+        justify-content: center;
+        align-items: center;    
+}
+}
+@media screen and (min-width:900px) {
+    .container{
+        height: 400px;
+        width: 400px;
+        background-color: blue;
+        overflow: scroll;
+    }
+}

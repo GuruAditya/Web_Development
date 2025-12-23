@@ -1,0 +1,23 @@
+h1{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;;
+    border-width: 10px;
+    border-style: solid;
+    border-color: blue;
+    /* to make distance between boundary and border */
+    padding: 10px;
+    /* to add distance with the boundary */
+    margin: 10px;
+    border-radius: 50px;
+}
+h2{
+    background-color: pink;
+    border: 10px solid greenyellow;
+}
+#first{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 10px solid black;
+}

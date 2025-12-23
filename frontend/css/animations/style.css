@@ -1,0 +1,27 @@
+
+body{
+    height: 100vh;
+    position: relative;
+}
+#container{
+    height:100px;
+    width: 100px;
+    animation-name: moving ;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    background-color: red;
+    position: absolute;
+
+}
+@keyframes moving {
+    from{
+        background-color: yellow;
+        left: 10px;
+        top: 10px;
+    }
+    to{
+        background-color: orange;
+        left: 1000px;
+        top: 10px;
+    }
+}

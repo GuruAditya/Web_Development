@@ -1,0 +1,23 @@
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(10, 10, 111);
+    position: relative;
+
+}
+#circle{
+    height:60px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    left:115px; 
+}
+.line{
+    height: 50px;
+    width: 300px;
+    background-color: red;
+}
+#second{
+    position: absolute;
+    bottom: 0%;
+}
